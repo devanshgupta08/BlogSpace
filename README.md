@@ -1,13 +1,15 @@
 # ✨ BlogScape 📝
 
-> A **full-stack blogging platform** built with the **MERN stack** (MongoDB, Express.js, React, Node.js), offering smooth content management, user interaction, and modern web features.
+> A **full-stack blogging platform** built with the **MERN stack** (MongoDB, Express.js, React, Node.js), offering smooth content management, user interaction, and modern web features.  
+>  
+> ![Hero Section](Screenshots/herodark.png)
 
 ---
 
 ## 🚀 Deployment
 
-- 🔗 **Frontend**: [Vercel Link](https://blog-space-blond.vercel.app)  
-- 🔗 **Backend**: [Render Link](https://blogspace-1-kjm6.onrender.com)
+- 🔗 **Frontend**: [Vercel](https://blog-space-blond.vercel.app)  
+- 🔗 **Backend**: [Render](https://blogspace-1-kjm6.onrender.com)
 
 ---
 
@@ -16,10 +18,12 @@
 <details open>
 <summary>🔐 <strong>Google OAuth Login</strong></summary>
 
-Users can sign in using their **Google account**, ensuring secure and fast authentication. No need to remember separate passwords!  
-\
-📸 **Screenshot:**  
-![Google OAuth Login](screenshots/google-login.png)
+Users can sign in using their **Google account**, ensuring secure and fast authentication.  
+No need to remember separate passwords!
+
+<br>
+
+![Google OAuth Login](Screenshots/login.png)
 
 </details>
 
@@ -28,10 +32,12 @@ Users can sign in using their **Google account**, ensuring secure and fast authe
 <details open>
 <summary>🏠 <strong>Home Page with Blogs</strong></summary>
 
-The homepage shows all blog posts fetched from the backend, with pagination and real-time updates. Users can scroll through featured content easily.  
-\
-📸 **Screenshot:**  
-![Home Page](screenshots/homepage.png)
+The homepage displays all blog posts fetched from the backend, featuring pagination and real-time updates.  
+Users can scroll through featured content easily.
+
+<br>
+
+![Home Page](Screenshots/allpost.png)
 
 </details>
 
@@ -40,10 +46,11 @@ The homepage shows all blog posts fetched from the backend, with pagination and 
 <details open>
 <summary>🔍 <strong>Search & Filter Blogs</strong></summary>
 
-Users can search blog posts by title or content, and filter results by **date** for quicker access to relevant posts.  
-\
-📸 **Screenshot:**  
-![Search and Filter](screenshots/search-filter.png)
+Users can search blog posts by **title or content**, and filter results by **date** for quicker access to relevant posts.
+
+<br>
+
+![Search and Filter](Screenshots/search.png)
 
 </details>
 
@@ -52,10 +59,13 @@ Users can search blog posts by title or content, and filter results by **date** 
 <details open>
 <summary>✍️ <strong>Admin-Only Blog Creation</strong></summary>
 
-Only admin users can create and publish blog posts. The form is optimized using React Hook Form and Zod for validation.  
-\
-📸 **Screenshot:**  
-![Create Blog](screenshots/create-blog.png)
+Only **admin users** can create and publish blog posts.  
+The form is optimized using **React Hook Form** and **Zod** for validation.
+
+<br>
+
+![Create Blog](Screenshots/createpost.png)  
+![Create Blog](Screenshots/createpost2.png)
 
 </details>
 
@@ -64,10 +74,11 @@ Only admin users can create and publish blog posts. The form is optimized using 
 <details open>
 <summary>📝 <strong>Blog Detail Page</strong></summary>
 
-Clicking on a blog opens the full content, where users can **read, like, and comment** on the post.  
-\
-📸 **Screenshot:**  
-![Blog Detail View](screenshots/blog-detail.png)
+Clicking on a blog opens the full content, where users can **read**, **like**, and **comment** on the post.
+
+<br>
+
+![Blog Detail View](Screenshots/post.png)
 
 </details>
 
@@ -76,10 +87,11 @@ Clicking on a blog opens the full content, where users can **read, like, and com
 <details open>
 <summary>❤️ <strong>Like & Comment</strong></summary>
 
-Users can like blog posts and leave comments to engage with authors and readers.  
-\
-📸 **Screenshot:**  
-![Like and Comment](screenshots/like-comment.png)
+Users can like blog posts and leave comments to engage with authors and readers.
+
+<br>
+
+![Like and Comment](Screenshots/comment.png)
 
 </details>
 
@@ -88,10 +100,15 @@ Users can like blog posts and leave comments to engage with authors and readers.
 <details open>
 <summary>⚙️ <strong>Admin Dashboard</strong></summary>
 
-Admins have access to a powerful dashboard to **manage users, posts, and comments**. They can update or delete any content.  
-\
-📸 **Screenshot:**  
-![Admin Dashboard](screenshots/admin-dashboard.png)
+Admins have access to a powerful dashboard to **manage users, posts, and comments**.  
+They can update or delete any content as needed.
+
+<br>
+
+![Admin Dashboard](Screenshots/dashboard1.png)  
+![Admin Dashboard](Screenshots/dashboard2.png)  
+![Admin Dashboard](Screenshots/dashboard3.png)  
+![Admin Dashboard](Screenshots/dashboard4.png)
 
 </details>
 
@@ -109,10 +126,20 @@ Images for blogs and profiles are uploaded directly to **Cloudinary**, ensuring 
 <details open>
 <summary>🌓 <strong>Theme Toggle (Dark / Light Mode)</strong></summary>
 
-Switch between **light and dark themes** based on user preference. Theme is persisted across sessions.  
-\
-📸 **Screenshot:**  
-![Theme Toggle](screenshots/theme-toggle.png)
+Switch between **light and dark themes** based on user preference.  
+Theme choice is **persisted across sessions**.
+
+<br>
+
+**Light Mode**  
+<br>
+![Light Mode](Screenshots/herolight.png)
+
+<br>
+
+**Dark Mode**  
+<br>
+![Dark Mode](Screenshots/herodark.png)
 
 </details>
 
@@ -121,10 +148,11 @@ Switch between **light and dark themes** based on user preference. Theme is pers
 <details open>
 <summary>👤 <strong>Profile Management</strong></summary>
 
-Users can update their name, profile picture, and other details from their profile section.  
-\
-📸 **Screenshot:**  
-![Profile Page](screenshots/profile.png)
+Users can update their **name, profile picture**, and other details from their profile section.
+
+<br>
+
+![Profile Page](Screenshots/profile.png)
 
 </details>
 
@@ -133,7 +161,7 @@ Users can update their name, profile picture, and other details from their profi
 <details open>
 <summary>📑 <strong>Pagination</strong></summary>
 
-Large lists of blog posts are paginated for better performance and user experience.
+Large lists of blog posts are **paginated** for better performance and smoother user experience.
 
 </details>
 
@@ -141,11 +169,11 @@ Large lists of blog posts are paginated for better performance and user experien
 
 ## 🛠️ Technologies Used
 
-| 🧩 Layer     | 🔧 Tech Stack                                                                 |
-|-------------|-------------------------------------------------------------------------------|
-| **Frontend** | React, React Router DOM, Redux, React Query, DaisyUI, React Hook Form        |
-| **Backend**  | Node.js, Express.js, MongoDB, Mongoose, Zod, bcrypt, Cloudinary              |
-| **Auth**     | Google OAuth                                                                 |
-| **Utilities**| Slugify, CORS, JWT                                                           |
+| Layer        | Tech Stack                                                                       |
+|--------------|-----------------------------------------------------------------------------------|
+| **Frontend** | React, React Router DOM, Redux, React Query, DaisyUI, React Hook Form            |
+| **Backend**  | Node.js, Express.js, MongoDB, Mongoose, Zod, bcrypt, Cloudinary                  |
+| **Auth**     | Google OAuth                                                                     |
+| **Utilities**| Slugify, CORS, JWT                                                               |
 
 ---
